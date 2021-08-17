@@ -61,6 +61,17 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 
 - Alternatively you can spin up an EC2 instance , install tomcat and deploy the war file within tomcat.
 
+# Postman testing using local deployment 
+
+![image](https://user-images.githubusercontent.com/50136741/129712626-49c37669-d391-4442-8c22-3ec649c5ef7f.png)
+
+![image](https://user-images.githubusercontent.com/50136741/129712705-24d16829-3063-4592-a98d-315b4f12d39f.png)
+
+![image](https://user-images.githubusercontent.com/50136741/129712813-ef4eb325-96ec-4d0a-9a54-0334709135e6.png)
+
+![image](https://user-images.githubusercontent.com/50136741/129712850-17cee6f4-c38c-4229-bbaf-200222c5544a.png)
+
+
 # Assumption
 
 - All the landmark inputs are in upper case, application loads input from properties file while starting the server. Example (AB3, BC9, CD3 etc. is valid and aB3, Vc9 are not).
