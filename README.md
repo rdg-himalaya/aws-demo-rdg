@@ -60,3 +60,8 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 ![image](https://user-images.githubusercontent.com/50136741/129696532-bbad7ced-335b-41e4-98aa-c4e26f9d39ed.png)
 
 
+# Assumption
+
+- All the landmark inputs are in upper case, application loads input from properties file while starting the server. Example (AB3, BC9, CD3 etc.)
+- Path between 2 landmarks always unidirectional.
+- Any landmark appearing more than once in given inputs for finding route distance, will be considered as wrong input.
