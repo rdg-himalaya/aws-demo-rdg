@@ -41,7 +41,7 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 
 # Cloud deployment 
 
-**Using AWS Elastic Beanstalk **
+**Using AWS Elastic Beanstalk**
 
 - Open AWS console , search for Elastic Beanstalk.
 - Click on 'Create application'
