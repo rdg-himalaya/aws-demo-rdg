@@ -39,3 +39,18 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 - http://localhost:8080/pathdetails/a/a/3
 - http://localhost:8080/pathdetails/A/E/4
 
+# Cloud deployment 
+
+**Using AWS Elastic Beanstalk **
+
+- Open AWS console , search for Elastic Beanstalk.
+- Click on 'Create application'
+- Provide application name (it will be part of deployed URL) . 
+- You can add tag as optional . 
+- Choose tomcat as platform , it will use version 8.5 internally. 
+- Under 'Application code' choose upload your code option and upload the war file either from S3 or from locally downloaded path . 
+- Click on 'Create application' (in console you can see the steps that AWS is performing internally). 
+- Once deployed health status of application will be green . 
+- Copy application base URL and append API URL to it to access the resources . 
+
+
