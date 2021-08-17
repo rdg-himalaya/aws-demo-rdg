@@ -11,6 +11,7 @@ The goal is to build an API to locate the actors in the game. All actors are tag
 2) Install Git.
 3) Install maven.
 4) Install tomcat.
+5) Postman tool for API testing
 
 # Build and Deployment
 - Clone code from git repository.
@@ -21,3 +22,16 @@ The goal is to build an API to locate the actors in the game. All actors are tag
 - Alternative you can use STS IDE. 
 - Import cloned project as a sptingboot application.
 - Run the project in STS as a sptingboot application.
+
+# Swagger-API
+Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml 
+
+# Testing steps 
+- Ensure that project is deployed successfully in tomcat and server started without any error (Port: 8080)
+- Or springboot project started successfully in STS . 
+- Open postman and use URL provided in swagger doc.
+- Alternatively you can run **JUNIT test cases** with different inputs to understand the edge case scenarions
+
+# Sample postman URL 
+- http://localhost:8080/pathdistance/ABCDE ![image](https://user-images.githubusercontent.com/50136741/129692558-41fa9b1d-0fe2-423f-bc18-d05160f379ca.png)
+
