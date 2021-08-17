@@ -33,5 +33,9 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 - Alternatively you can run **JUNIT test cases** with different inputs to understand the edge case scenarions
 
 # Sample postman URL 
-- http://localhost:8080/pathdistance/ABCDE ![image](https://user-images.githubusercontent.com/50136741/129692558-41fa9b1d-0fe2-423f-bc18-d05160f379ca.png)
+- http://localhost:8080/pathdistance/ABCDE
+- http://localhost:8080/pathdistance/AE
+- http://localhost:8080/pathdetails/a/e/2
+- http://localhost:8080/pathdetails/a/a/3
+- http://localhost:8080/pathdetails/A/E/4
 
