@@ -54,3 +54,6 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 - Copy application base URL and append API URL to it to access the resources . 
 
 
+![image](https://user-images.githubusercontent.com/50136741/129696275-375c0bea-9590-41ba-ab04-3155b602ad4d.png)
+![image](https://user-images.githubusercontent.com/50136741/129696226-3d8f560b-b606-466b-ae76-1b9a0894b5b2.png)
+
