@@ -59,6 +59,7 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 ![image](https://user-images.githubusercontent.com/50136741/129696451-86656fcf-654b-4740-bb26-12d796c98d4b.png)
 ![image](https://user-images.githubusercontent.com/50136741/129696532-bbad7ced-335b-41e4-98aa-c4e26f9d39ed.png)
 
+- Alternatively you can spin up an EC2 instance , install tomcat and deploy the war file within tomcat.
 
 # Assumption
 
