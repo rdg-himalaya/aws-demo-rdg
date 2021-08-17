@@ -3,7 +3,7 @@ demo code for Contoso Gaming Platform :
 
 The goal is to build an API to locate the actors in the game. All actors are tagged to the Landmarks and the purpose of the API is to provide routes between landmarks to suggest routes to the actors.  In order to achieve this, the game engine should be able to calculate - 
  
-•	The distance along certain routes via landmarks
+•	The distance along certain routes via landmarks.
 •	The number of different routes between landmarks.
 
 # Prerequisite
