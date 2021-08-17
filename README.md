@@ -56,4 +56,7 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 
 ![image](https://user-images.githubusercontent.com/50136741/129696275-375c0bea-9590-41ba-ab04-3155b602ad4d.png)
 ![image](https://user-images.githubusercontent.com/50136741/129696226-3d8f560b-b606-466b-ae76-1b9a0894b5b2.png)
+![image](https://user-images.githubusercontent.com/50136741/129696451-86656fcf-654b-4740-bb26-12d796c98d4b.png)
+![image](https://user-images.githubusercontent.com/50136741/129696532-bbad7ced-335b-41e4-98aa-c4e26f9d39ed.png)
+
 
