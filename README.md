@@ -35,9 +35,9 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 # Sample postman URL 
 - http://localhost:8080/pathdistance/ABCDE
 - http://localhost:8080/pathdistance/AE
-- http://localhost:8080/pathdetails/a/e/2
-- http://localhost:8080/pathdetails/a/a/3
-- http://localhost:8080/pathdetails/A/E/4
+- http://localhost:8080/routecount/a/e/2
+- http://localhost:8080/routecount/a/a/3
+- http://localhost:8080/routecount/A/E/4
 
 # Cloud deployment 
 
