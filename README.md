@@ -59,7 +59,31 @@ Download from S3 bucket : https://demo-contoso.s3.amazonaws.com/contoso-api.yml
 ![image](https://user-images.githubusercontent.com/50136741/129696451-86656fcf-654b-4740-bb26-12d796c98d4b.png)
 ![image](https://user-images.githubusercontent.com/50136741/129696532-bbad7ced-335b-41e4-98aa-c4e26f9d39ed.png)
 
-- Alternatively you can spin up an EC2 instance , install tomcat and deploy the war file within tomcat.
+**Using A Linux EC2 instance**
+- Spin up an Linux EC2 T2 micro instance .
+- You can keep all SG and network setting default .
+- Allow all traffic for inbound rules (this is not suggested but only for demo purpose) .
+- You can use existing key pair or create a new one.
+- Connect to the instance using terminal . 
+- Update operating system by running : sudo yum update -y
+- Install open JDK using command : sudo yum install java-1.8.0-openjdk
+- Download Springboot jar file to current directory using command "wget https://demo-contoso.s3.amazonaws.com/aws-demo-rdg-0.0.1-SNAPSHOT.jar ."
+- Run command to extract jar file : " java -jar aws-demo-rdg-0.0.1-SNAPSHOT.jar" 
+- Spring boot appliation should get started in tomcat server 8080 port wthout any error . 
+- Grab the public IP of the EC2 instance from AWS management console and use it to connect to application endpoint. 
+
+http://34.201.251.178:8080/pathdistance/ABCDE
+![image](https://user-images.githubusercontent.com/50136741/130029083-462309e7-5b1b-47fc-98ed-9352bf471bde.png)
+
+
+http://34.201.251.178:8080/pathdistance/ABPRDE
+
+![image](https://user-images.githubusercontent.com/50136741/130029137-e9537be5-0e6a-455c-b4f0-988d2eed6657.png)
+
+http://ec2-34-201-251-178.compute-1.amazonaws.com:8080/routecount/a/a/2
+
+![image](https://user-images.githubusercontent.com/50136741/130029262-87725089-d7cd-4e9c-a08c-fab8cd5b4486.png)
+
 
 # Postman testing using local deployment 
 
