@@ -57,12 +57,7 @@ public class DataLoad {
 		}
 	}
   
-  // utility method to initialise
-  // adjacency list
-
  
-  
-  
   
 @SuppressWarnings("unchecked")
 //public void processRouteInput()
