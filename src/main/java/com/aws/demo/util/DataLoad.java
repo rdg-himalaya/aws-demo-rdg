@@ -21,10 +21,7 @@ public class DataLoad {
 	@Value("${my.list.of.strings}")  
 	private List<String> inputDataList;
 	
-	 // adjacency list
-    private ArrayList<Character>[] adjList;
     private int v;
-    //ArrayList<ArrayList<Character> > nodeList;
     ArrayList<Character>[] nodeList ;
 	
 	public HashMap<Character, HashMap<Character, Integer>> updateMap()
@@ -138,63 +135,5 @@ private void printAllPathsUtil(Character u, Character d,
     // Mark the current node
     isVisited[u] = false;
 }
-
- /*     
-	  if(engineMap.size() > 0)
-	  {
-		  int i=0;
-		  adjList = new ArrayList[engineMap.size()]; 
-		  Iterator <Character> it = engineMap.keySet().iterator();  
-		  while(it.hasNext())  
-		  {
-			  adjList[i] = new ArrayList<>();
-			  HashMap<Character, Integer> tempMap = new HashMap<Character, Integer>();
-			  tempMap = engineMap.get(it.next()); 
-			  Character [] arr = (Character[]) tempMap.keySet().toArray();
-
- 			// adjList[i].add
-		  }
-		  for (int i = 0; i < engineMap.size(); i++) {
-	          adjList[i] = new ArrayList<>();
-	          adjList[i].addAll(engineMap.keySet(it.next()));
-
-	      }		  
-	  }
-	  
-	  
-	  for (int i = 0; i < v; i++) {
-          adjList[i] = new ArrayList<>();
-      }
-  }
-   
-    // add edge from u to v
-  public void addEdge(int u, int v)
-  {
-      // Add v to u's list.
-      adjList[u].add(v);
-  }
-    // Constructor
-  public AwsGraph(int vertices)
-  {
-
-      // initialise vertex count
-      this.v = vertices;
-
-      // initialise adjacency list
-      initAdjList();
-  }
-   @SuppressWarnings("unchecked")
-  private void initAdjList()
-  {
-      adjList = new ArrayList[v];
-
-      for (int i = 0; i < v; i++) {
-          adjList[i] = new ArrayList<>();
-      }
-  }
- */
- 
-
-//add edge from u to v
  
 }
